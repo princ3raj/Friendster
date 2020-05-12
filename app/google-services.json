@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "793241119937",
+    "firebase_url": "https://friendster-e0eb1.firebaseio.com",
+    "project_id": "friendster-e0eb1",
+    "storage_bucket": "friendster-e0eb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793241119937:android:a0cf820df3125bcc083840",
+        "android_client_info": {
+          "package_name": "com.example.friendster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "793241119937-kih4iaqf8pssjj5hgap3ikue1hfufcp3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.friendster",
+            "certificate_hash": "e9bfad97bd153aa6dfa24770a5e297c8ca7d5118"
+          }
+        },
+        {
+          "client_id": "793241119937-5knid3cvt0m70r3nc676d1dc9arsccfo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCf3n8viGLODcM6yjoB0kt4J-YJVfMdbhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "793241119937-5knid3cvt0m70r3nc676d1dc9arsccfo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
