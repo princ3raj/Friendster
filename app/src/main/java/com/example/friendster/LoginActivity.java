@@ -149,8 +149,11 @@ public class LoginActivity extends AppCompatActivity {
                                     String email=user.getEmail();
                                     String profileUrl=user.getPhotoUrl().toString();
                                     final String coverUrl="";
+                                    Log.d(TAG, "onSuccess: till coverurl");
                                     UserInterface userInterface= ApiClient.getApiClient().create(UserInterface.class);
+                                    Log.d(TAG, "onSuccess: till userinterface");
                                     Call<Integer> call=userInterface.signin(new LoginActivity.UserInfo(uid,name,email,profileUrl,coverUrl,userToken));
+                                    Log.d(TAG, "onSuccess: till call");
 
                                     //asynchronous call
                                     call.enqueue(new Callback<Integer>() {

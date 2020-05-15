@@ -4,6 +4,9 @@ import android.app.Activity;
 
 import com.google.gson.Gson;
 
+import java.util.Arrays;
+
+import okhttp3.ConnectionSpec;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
@@ -11,7 +14,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient extends Activity {
 
-    private static final String BASE_URL="http://10.0.2.2/friendster/public/app/";
+    private static final String BASE_URL="http://192.168.64.2/friendster/public/app/";
     private static Retrofit sRetrofit=null;
 
     public static Retrofit getApiClient()
